@@ -18,45 +18,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="window.h">
+    <ClInclude Include="headers\window.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GraphicsRenderer.h">
+    <ClInclude Include="headers\GraphicsRenderer.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Control.h">
+    <ClInclude Include="headers\Control.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ControlPrivate.h">
+    <ClInclude Include="src\ControlPrivate.h">
       <Filter>Исходные файлы\internal headers</Filter>
     </ClInclude>
-    <ClInclude Include="EditPrivate.h">
+    <ClInclude Include="src\EditPrivate.h">
       <Filter>Исходные файлы\internal headers</Filter>
     </ClInclude>
-    <ClInclude Include="GraphicObject.h">
+    <ClInclude Include="headers\GraphicObject.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GraphicObjectPrivate.h">
+    <ClInclude Include="src\GraphicObjectPrivate.h">
       <Filter>Исходные файлы\internal headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Control.c">
+    <ClCompile Include="src\Control.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Edit.c">
+    <ClCompile Include="src\Edit.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GraphicObject.c">
+    <ClCompile Include="src\GraphicObject.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GraphicsRenderer.c">
+    <ClCompile Include="src\GraphicsRenderer.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="src\main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="window.c">
+    <ClCompile Include="src\window.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
