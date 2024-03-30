@@ -134,14 +134,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Control.c" />
-    <ClCompile Include="Edit.c" />
-    <ClCompile Include="GraphicObject.c" />
-    <ClCompile Include="GraphicsRenderer.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="window.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Control.h" />
     <ClInclude Include="ControlPrivate.h" />
     <ClInclude Include="EditPrivate.h" />
@@ -149,6 +141,14 @@
     <ClInclude Include="GraphicObjectPrivate.h" />
     <ClInclude Include="GraphicsRenderer.h" />
     <ClInclude Include="window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Control.c" />
+    <ClCompile Include="Edit.c" />
+    <ClCompile Include="GraphicObject.c" />
+    <ClCompile Include="GraphicsRenderer.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="window.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

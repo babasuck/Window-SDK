@@ -18,26 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="window.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphicsRenderer.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Control.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Edit.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphicObject.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="window.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -59,5 +39,25 @@
     <ClInclude Include="GraphicObjectPrivate.h">
       <Filter>Исходные файлы\internal headers</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Control.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObject.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsRenderer.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
