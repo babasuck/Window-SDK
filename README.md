@@ -8,6 +8,7 @@
 #include "GraphicObject.h"
 #include <stdint.h>
 
+// By default it compiles like executable 
 int WinMain() {
 	struct Window* win = window_create_object();
 	window_ctor(win, 0, L"Test", 500, 500);
